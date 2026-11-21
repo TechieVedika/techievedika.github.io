@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Destinations in India | Wanderly</title>
+  <meta name="description" content="Browse travel guides for beaches and mountains in India, with itineraries and budget tips.">
+ <link rel="canonical" href="https://techievedika.github.io/destinations.html">
+ 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+  <a href="index.html" class="logo">Wanderly</a>
+  <button class="menu-toggle" aria-label="Open menu">☰</button>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="destinations.html">Destinations</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+</nav>
+  </header>
+
+  <main class="container">
+    <h1>Travel Destinations</h1>
+    <input type="text" id="searchBox" placeholder="Search destinations..." aria-label="Search destinations">
+
+<div class="filters">
+  <button class="filter-btn active" data-filter="all">All</button>
+  <button class="filter-btn" data-filter="beach">Beach</button>
+  <button class="filter-btn" data-filter="mountain">Mountain</button>
+</div>
+
+<p id="noResults" hidden>No destinations found.</p>
+    <div class="cards">
+      <article class="card" data-category="beach">
+        <img src="images/goa-baga-beach.jpg" alt="Baga Beach in Goa at sunset">
+        <div class="card-body">
+          <h2>Goa</h2>
+          <p>Beaches, food and a simple budget plan.</p>
+          <a href="destinations/things-to-do-in-goa.html">Things to Do in Goa</a>
+        </div>
+      </article>
+      <article class="card" data-category="mountain">
+        <img src="images/manali-solang-valley.jpg" alt="Solang Valley in Manali with snow-covered mountains">
+        <div class="card-body">
+          <h2>Manali</h2>
+          <p>Mountains, snow and the best places to visit.</p>
+          <a href="destinations/things-to-do-in-manali.html">Things to Do in Manali</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Wanderly. All rights reserved.</p>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://techievedika.github.io/sitemap.xml
